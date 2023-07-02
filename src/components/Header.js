@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -7,9 +8,9 @@ import {
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <FontAwesomeIcon icon={faEarthAmerica} />
-      <FontAwesomeIcon icon={faLocationDot} />
+      <p>my travel journal.</p>
     </div>
   );
 };

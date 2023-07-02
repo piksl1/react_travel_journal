@@ -1,0 +1,18 @@
+.header {
+    padding: 15px;
+    background-color: #F55A5A;
+    color: white;
+}
+
+.header svg {
+    font-size: 21px;
+    margin-right: 2.5px;
+    vertical-align: middle;
+}
+
+.header p {
+    display: inline;
+    margin-left: 2.5px;
+    font-size: 14px;
+    font-weight: bold;
+}
